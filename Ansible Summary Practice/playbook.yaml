@@ -1,0 +1,14 @@
+-
+  name: Summary Practice Playbook
+  hosts: all
+  user: root
+  become: yes
+  tasks:
+    - name: copy content from script
+      copy:
+        src: ./hello.sh
+        dest: /tmp/hello.sh
+        mode: '0755'
+      
+    - name: run script
+      shell: /tmp/hello.sh
