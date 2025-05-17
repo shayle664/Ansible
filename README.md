@@ -5,10 +5,12 @@ This project demonstrates a simple Ansible playbook used to automate script dist
 ## 📁 Project Structure
 ```
 .
-├── ansible.cfg # Ansible configuration pointing to the inventory file
-├── hello.sh # Shell script to be copied and executed on all nodes
-├── hosts.ini # Inventory file listing target nodes
-├── playbook.yaml # Main playbook to copy and run the script
+├── Ansible Summary Practice/
+|   ├── ansible.cfg # Ansible configuration pointing to the inventory file
+|   ├── hello.sh # Shell script to be copied and executed on all nodes
+|   ├── hosts.ini # Inventory file listing target nodes
+|   ├── playbook.yaml # Main playbook to copy and run the script
+|
 └── README.md # Project documentation (this file)
 ```
 
